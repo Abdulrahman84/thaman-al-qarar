@@ -10,11 +10,10 @@
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #2A150B; --paper: #F6EEDF; --ink: #2B241B; --muted: #6B5E4B; --accent: #8A2B1E;
+    --bg: #2A150B; --paper: #F6EEDF; --ink: #2B241B; --muted: #5E5141; --accent: #8A2B1E;
   }
-  @media (prefers-color-scheme: dark) {
-    :root { --paper: #1F1712; --ink: #EFE6D6; --muted: #B5A68E; --accent: #E08A6F; }
-  }
+  /* Light paper on walnut in both modes, like the game itself. */
+  :root { color-scheme: light; }
   * { box-sizing: border-box; }
   body {
     margin: 0; background: var(--bg); color: var(--ink);
